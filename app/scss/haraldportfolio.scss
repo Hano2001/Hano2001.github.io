@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.myClassTest {
+  background-color: rgb(0, 255, 21);
+  &:hover {
+    background-color: indigo;
+  }
+}
+
+
