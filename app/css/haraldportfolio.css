@@ -7157,6 +7157,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .myClassTest {
-  background-color: #00ff15; }
+  background-color: black;
+  color: white;
+  text-align: center; }
   .myClassTest:hover {
     background-color: indigo; }
