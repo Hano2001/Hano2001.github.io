@@ -7157,38 +7157,88 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 * {
-  font-family: monospace; }
+  font-family: monospace;
+  font-weight: bold;
+  box-sizing: border-box; }
 
-.myClassTest {
+@media screen and (min-width: 480px) {
+  .headLine {
+    width: 100%; }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1em;
+    color: white; }
+  .carousel-container {
+    width: 50%;
+    height: 50%; } }
+
+.headLine {
   background-color: black;
   color: white;
-  text-align: center; }
-  .myClassTest:hover {
+  text-align: center;
+  min-width: 100%; }
+  .headLine:hover {
     background-color: indigo; }
 
 .header {
-  background-color: black; }
-
-.navbar {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: black;
-  color: white; }
+  min-width: 100%; }
 
-.navItem {
+@media screen and (max-width: 480px) {
+  .headLine {
+    width: 100%; }
+  .navbar {
+    float: left;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: white;
+    height: auto;
+    border-radius: 8px; }
+  .navItem {
+    width: 100%; }
+  .text {
+    width: 100%; }
+  .carousel-container {
+    width: 95%;
+    height: 95%; } }
+
+.navItem p {
   background-position: 50% 50%;
   background-size: 0% 100%;
   height: 100%;
   width: 50%;
-  transition: background-size 0.5s, background-color 0.5s, transform 0.5s;
-  border-radius: 10px; }
-  .navItem:hover {
+  transition: background-size 1s, background-color 1s, transform 1s, color 0.1s;
+  border-radius: 8px; }
+  .navItem p:hover {
+    width: 50%;
     background-size: 100% 100%;
-    background-color: red; }
+    background-color: white;
+    color: black;
+    transform: skewX(180deg); }
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse; }
+
+.text {
+  border: solid black;
+  width: 500px;
+  height: 450px;
+  margin-top: 20px;
+  margin: auto; }
 
 .carousel-container {
   margin: auto;
-  margin-top: 20px;
-  height: 50%;
-  width: 50%; }
+  height: 700px;
+  width: 600px; }
+
+.carousel-item {
+  height: 700px;
+  width: 600px; }
+
+.hide {
+  display: none; }
