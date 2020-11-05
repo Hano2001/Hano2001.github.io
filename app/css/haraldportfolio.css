@@ -7229,7 +7229,9 @@ a.text-dark:hover, a.text-dark:focus {
   width: 500px;
   height: 450px;
   margin-top: 20px;
-  margin: auto; }
+  margin: auto;
+  background-color: black;
+  color: white; }
 
 .carousel-container {
   margin: auto;

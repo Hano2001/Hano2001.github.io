@@ -3,32 +3,32 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let gitLink = document.getElementById("navGIT");
   let nackaLink = document.getElementById("navNACKA");
   let someLink = document.getElementById("navSOME");
-  let nackaInfo = document.getElementById("nackaInfo");
-  nackaInfo.classList.add("hide");
+  let navDivs = document.getElementsByClassName("navDiv");
+  console.log(typeof navDivs);
+  hideAllDivs(navDivs[0]);
 
-  let carro = document.getElementById("carro");
+  function hideAllDivs(x) {
+    for (let i = 0; i < navDivs.length; i++) {
+      navDivs[i].classList.add("hide");
+      x.classList.remove("hide");
+    }
+  }
+
+  //let carro = document.getElementById("carro");
 
   cvLink.addEventListener("click", (e) => {
-    console.log("TuttiFrutti");
-
-    carro.classList.add("hide");
+    hideAllDivs(navDivs[1]);
   });
 
   gitLink.addEventListener("click", (e) => {
-    console.log("TuttiPrutti");
-
-    carro.classList.remove("hide");
+    hideAllDivs(navDivs[2]);
   });
 
   nackaLink.addEventListener("click", (e) => {
-    console.log("HEEEEEJ");
-    nackaInfo.classList.remove("hide");
-    carro.classList.add("hide");
+    hideAllDivs(navDivs[3]);
   });
 
   someLink.addEventListener("click", (e) => {
-    console.log("BAGARMOSSENS TOBAK");
-
-    carro.classList.remove("hide");
+    hideAllDivs(navDivs[4]);
   });
 });
