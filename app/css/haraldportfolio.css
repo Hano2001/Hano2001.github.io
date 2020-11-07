@@ -7205,14 +7205,15 @@ a.text-dark:hover, a.text-dark:focus {
     width: 95%;
     height: 95%; } }
 
-.navItem p {
+.navItem {
+  cursor: pointer;
   background-position: 50% 50%;
   background-size: 0% 100%;
   height: 100%;
   width: 50%;
-  transition: background-size 1s, background-color 1s, transform 1s, color 0.1s;
+  transition: background-size 1s, background-color 1s, transform 1s, color 0.1s;
   border-radius: 8px; }
-  .navItem p:hover {
+  .navItem:hover {
     width: 50%;
     background-size: 100% 100%;
     background-color: white;
