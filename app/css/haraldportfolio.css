@@ -7181,9 +7181,8 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: black;
   color: white;
   text-align: center;
-  min-width: 100%; }
-  .headLine:hover {
-    background-color: indigo; }
+  min-width: 100%;
+  cursor: pointer; }
 
 .header {
   background-color: black;

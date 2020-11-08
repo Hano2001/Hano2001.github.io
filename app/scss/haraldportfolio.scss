@@ -29,9 +29,7 @@
   color: white;
   text-align: center;
   min-width: 100%;
-  &:hover {
-    background-color: indigo;
-  }
+  cursor: pointer;
 }
 .header {
   background-color: black;
@@ -99,14 +97,6 @@
     background-color: black;
     color: white;
   }
-
-  //   .nackaImg1 {
-  //     padding: 20px;
-
-  //     min-width: 400px;
-  //     height: 100%;
-  //     width: 100%;
-  //   }
 }
 //Media query
 @media screen and (max-width: 480px) {

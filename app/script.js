@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+  let headLink = document.getElementById("headLine");
   let cvLink = document.getElementById("navCV");
   let gitLink = document.getElementById("navGIT");
   let nackaLink = document.getElementById("navNACKA");
@@ -16,7 +17,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
   }
 
-  //let carro = document.getElementById("carro");
+  headLink.addEventListener("click", (e) => {
+    hideAllDivs(navDivs[0]);
+  });
 
   cvLink.addEventListener("click", (e) => {
     hideAllDivs(navDivs[1]);
