@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let nackaLink = document.getElementById("navNACKA");
   let someLink = document.getElementById("navSOME");
   let navDivs = document.getElementsByClassName("navDiv");
+  let navBar = document.getElementById("navBar");
+  let menuBtn = document.getElementById("menuBtn");
 
   hideAllDivs(navDivs[0]);
 
@@ -30,5 +32,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   someLink.addEventListener("click", (e) => {
     hideAllDivs(navDivs[4]);
+  });
+
+  menuBtn.addEventListener("click", (e) => {
+    navBar.classList.toggle("hide");
+  });
+
+  window.addEventListener("resize", (e) => {
+    let screenW = window.innerWidth;
+    if (screenW <= 480) {
+      navBar.classList.add("hide");
+    } else {
+      navBar.classList.remove("hide");
+    }
   });
 });

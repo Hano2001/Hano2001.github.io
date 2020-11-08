@@ -15,7 +15,8 @@
   <body>
     <header class="header">
       <h1 class="headLine">Haralds Portfolio</h1>
-      <nav class="navbar">
+      <button class="menuBtn" id="menuBtn">MENY</button>
+      <nav id="navBar" class="navBar">
         <button id="navCV" class="navItem">CV</button>
         <!-- Ordningen av buttons är redan i logisk ordning. Så behövde ej göra något med tabindex -->
         <button id="navGIT" class="navItem">GIT</button>
@@ -29,7 +30,7 @@
       <div class="navDiv">
         <div id="carro" class="carousel-container">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-xl">
               <div
                 id="carouselExampleIndicators"
                 class="carousel slide"
@@ -60,15 +61,27 @@
                   <p>Lorem Ipsum</p>
                 </div> -->
                   <div class="carousel-item active">
-                    <img src="img/EVENTS.jpg" class="d-block w-100" alt="..." />
+                    <img
+                      src="img/EVENTS.jpg"
+                      class="d-block w-100"
+                      alt="EVENTSITE-PROJECT"
+                    />
                     <p>Lorem Ipsum</p>
                   </div>
                   <div class="carousel-item">
-                    <img src="img/YATZY.jpg" class="d-block w-100" alt="..." />
+                    <img
+                      src="img/YATZY.jpg"
+                      class="d-block w-100"
+                      alt="YATZY-PROJECT"
+                    />
                     <p>Lorem Ipsum</p>
                   </div>
                   <div class="carousel-item">
-                    <img src="img/QUIZ.jpg" class="d-block w-100" alt="..." />
+                    <img
+                      src="img/QUIZ.jpg"
+                      class="d-block w-100"
+                      alt="QUIZ-PROJECT"
+                    />
                     <p>Lorem Ipsum</p>
                   </div>
                   <a
@@ -111,20 +124,41 @@
     </div>
 
     <div class="navDiv">
-      <div id="nackaInfo" class="text">
-        <p>
-          Vill du jobba med att utveckla moderna interaktiva webbplatser,
-          webbapplikationer eller e-handelssystem?
-        </p>
-        <p>
-          Som fullstack-webbutvecklare jobbar du med att utveckla avancerade,
-          dynamiska och användarvänliga webblösningar.
-        </p>
-        <p>
-          Det här är utbildningen för dig som gillar kreativ problemlösning och
-          som vill ha en bred webbutvecklarkompetens inom open source och med
-          kunskap inom både backend och frontend!
-        </p>
+      <div class="nacka">
+        <div id="nackaInfo" class="text">
+          <p>
+            Vill du jobba med att utveckla moderna interaktiva webbplatser,
+            webbapplikationer eller e-handelssystem?
+          </p>
+          <p>
+            Som fullstack-webbutvecklare jobbar du med att utveckla avancerade,
+            dynamiska och användarvänliga webblösningar.
+          </p>
+          <p>
+            Det här är utbildningen för dig som gillar kreativ problemlösning
+            och som vill ha en bred webbutvecklarkompetens inom open source och
+            med kunskap inom både backend och frontend!
+          </p>
+        </div>
+
+        <div id="nackaInfo" class="text">
+          <p>
+            Vill du jobba med att utveckla moderna interaktiva webbplatser,
+            webbapplikationer eller e-handelssystem?
+          </p>
+          <p>
+            Som fullstack-webbutvecklare jobbar du med att utveckla avancerade,
+            dynamiska och användarvänliga webblösningar.
+          </p>
+          <p>
+            Det här är utbildningen för dig som gillar kreativ problemlösning
+            och som vill ha en bred webbutvecklarkompetens inom open source och
+            med kunskap inom både backend och frontend!
+          </p>
+        </div>
+        <!-- <div id="nackaImg" class="nackaImg">
+          <img class="nackaImg1" src="img/Nackademin.jpg" alt="BILD" />
+        </div> -->
       </div>
     </div>
 
