@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   window.addEventListener("resize", (e) => {
-    let screenW = window.innerWidth;
-    if (screenW <= 480) {
+    if (window.innerWidth <= 480) {
       navBar.classList.add("hide");
     } else {
       navBar.classList.remove("hide");
