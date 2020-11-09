@@ -7170,16 +7170,6 @@ body {
   margin: 1em;
   color: white; }
 
-.carousel-container {
-  margin: auto;
-  width: 50%;
-  height: 50%;
-  min-width: 400px;
-  padding: 40px;
-  margin-top: 20px;
-  margin: auto;
-  color: white; }
-
 .headLine {
   width: 100%;
   background-color: black;
@@ -7226,16 +7216,26 @@ body {
   width: 100%; }
 
 .home {
-  display: grid;
-  grid-template-columns: 15% 75%;
+  text-align: center;
+  display: flex;
   justify-content: center;
   color: white; }
-  .home .aboutMe {
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-    .home .aboutMe p {
-      border: solid white;
-      padding: 40px; }
+  .home .aboutMe p {
+    background-color: white;
+    color: black;
+    padding: 40px; }
+
+.gitPage {
+  text-align: center;
+  color: white; }
+  .gitPage .carousel-container {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    min-width: 400px;
+    padding: 40px;
+    margin-top: 20px;
+    margin: auto; }
 
 .nacka {
   height: 100%;
@@ -7275,6 +7275,9 @@ body {
     height: 100%; }
   .menuBtn {
     display: inline; }
+  .home {
+    min-width: 90%;
+    padding: 10px; }
   .nacka {
     grid-template-columns: 100%;
     grid-template-rows: 100%; }
