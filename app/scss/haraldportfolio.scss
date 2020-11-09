@@ -24,6 +24,7 @@ body {
   padding: 40px;
   margin-top: 20px;
   margin: auto;
+  color: white;
 }
 
 .headLine {
@@ -74,6 +75,22 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 15% 75%;
+  justify-content: center;
+  color: white;
+
+  .aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    p {
+      border: solid white;
+      padding: 40px;
+    }
+  }
 }
 
 .nacka {
