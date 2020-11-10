@@ -3,6 +3,9 @@
   font-family: monospace;
   font-weight: bold;
   box-sizing: border-box;
+  p {
+    font-size: 1.2em;
+  }
 }
 
 body {
@@ -82,7 +85,7 @@ body {
   }
 }
 
-.gitPage {
+.projectPage {
   text-align: center;
   color: white;
   .carousel-container {
@@ -127,6 +130,22 @@ body {
     width: 100%;
   }
 }
+.kontakt {
+  text-align: center;
+  color: white;
+  .links {
+    display: flex;
+
+    justify-content: center;
+    a {
+      margin: 10px;
+      color: black;
+      background-color: white;
+      padding: 40px;
+      min-width: 125px;
+    }
+  }
+}
 //Media query
 @media screen and (max-width: 480px) {
   .headLine {
@@ -163,6 +182,14 @@ body {
     #nackaImg2 {
       width: 100%;
       order: 4;
+    }
+  }
+
+  .kontakt {
+    .links {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%;
     }
   }
 }

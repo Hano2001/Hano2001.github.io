@@ -7160,6 +7160,8 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: monospace;
   font-weight: bold;
   box-sizing: border-box; }
+  * p {
+    font-size: 1.2em; }
 
 body {
   background-color: black; }
@@ -7225,10 +7227,10 @@ body {
     color: black;
     padding: 40px; }
 
-.gitPage {
+.projectPage {
   text-align: center;
   color: white; }
-  .gitPage .carousel-container {
+  .projectPage .carousel-container {
     margin: auto;
     width: 50%;
     height: 50%;
@@ -7261,6 +7263,19 @@ body {
     object-fit: cover;
     width: 100%; }
 
+.kontakt {
+  text-align: center;
+  color: white; }
+  .kontakt .links {
+    display: flex;
+    justify-content: center; }
+    .kontakt .links a {
+      margin: 10px;
+      color: black;
+      background-color: white;
+      padding: 40px;
+      min-width: 125px; }
+
 @media screen and (max-width: 480px) {
   .headLine {
     width: 100%; }
@@ -7286,7 +7301,11 @@ body {
       height: 100%; }
     .nacka #nackaImg2 {
       width: 100%;
-      order: 4; } }
+      order: 4; }
+  .kontakt .links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; } }
 
 .hide {
   display: none; }

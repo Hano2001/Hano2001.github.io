@@ -53,3 +53,12 @@ En grafisk profil är en profil där kunden har bestämt design-attributer. Det 
 ==============TILLGÄNGLIGHET===================
 Tillgängligheter är hjälpmedel som gör det lättare för människor med eventuella funktionsnedsättningar att orientera sig på sidan.
 Det kan vara texttolkning för synskadade, tab-ordning för människor som har svårigheter att orientera med musen osv.
+
+Jag har valt följade tillgängligheter:
+
+----2.4.3 (A) Gör en logisk tab-ordning----
+Jag har angett alla klickbara element ett tabindex i logisk ordning.
+
+----1.4.3 (AA) Använd tillräcklig kontrast mellan text och bakgrund----
+I min design har jag fokuserat mycket på kontrasten. Om det är ljus bakgrund, Är texten mörk, och vice versa.
+
