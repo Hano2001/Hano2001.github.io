@@ -7227,6 +7227,17 @@ body {
     color: black;
     padding: 40px; }
 
+.cvPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white; }
+  .cvPage p {
+    background-color: white;
+    padding: 40px;
+    color: black; }
+
 .projectPage {
   text-align: center;
   color: white; }
