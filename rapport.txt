@@ -1,10 +1,10 @@
-===========SCRUM====================
+======================SCRUM======================
 Scrum är ett agilt arbetssätt för programutveckling.
 
 ROLLER INOM SCRUM
 1.Produktägare
 Produktägaren är kundens röst i Srum-flödet. PÄ bestämmer vad som ska prioteras i varje sprint.
-Det är också han/hon som bestämmer när något ska ändras i flödet.
+Det är också hen som bestämmer när något ska ändras i flödet.
 
 2.Scrum master
 Scrum master är "coach" av Utvecklingsteamet. Det är personen som ser till att flödet går rätt till och kommunicerar mellan
@@ -46,19 +46,64 @@ stora. Men det är också ett sätt att komma med positiv kritik till teamet.
 
 
 
-===========GRAFISK PROFIL======================
-En grafisk profil är en profil där kunden har bestämt design-attributer. Det kan vara färg, typsnitt och logotyp kunden vill ha på sidan.
+======================GRAFISK PROFIL======================
+En grafisk profil är en profil där kunden har bestämt design-attributer. Det kan vara färg, typsnitt, layout och logotyp kunden vill ha på sidan.
 
 
-==============TILLGÄNGLIGHET===================
+
+======================TILLGÄNGLIGHET======================
 Tillgängligheter är hjälpmedel som gör det lättare för människor med eventuella funktionsnedsättningar att orientera sig på sidan.
 Det kan vara texttolkning för synskadade, tab-ordning för människor som har svårigheter att orientera med musen osv.
 
 Jag har valt följade tillgängligheter:
 
-----2.4.3 (A) Gör en logisk tab-ordning----
-Jag har angett alla klickbara element ett tabindex i logisk ordning.
+1.
+----1.1.1 (A)	Beskriv med text allt innehåll som inte är text----
 
+Alla bilder på hemsidan har beskrivande text, ifall användaren har svårt att se.
+
+
+2.
 ----1.4.3 (AA) Använd tillräcklig kontrast mellan text och bakgrund----
+
 I min design har jag fokuserat mycket på kontrasten. Om det är ljus bakgrund, Är texten mörk, och vice versa.
 
+3.
+----1.4.5 (AA)	Använd text, inte bilder, för att visa text----
+All text på sidan är skriven med text. Samt alla bilder har en alt-text.
+
+4.
+----2.4.3 (A) Gör en logisk tab-ordning----
+
+Jag har angett alla klickbara element ett tabindex i logisk ordning.
+
+5.
+
+----3.2.3 (AA)	Var konsekvent i navigation, struktur och utformning----
+
+Min sida har samma typsnitt, placering och storlek på texten överallt i navigationen,
+det är lätt för användaren att se var hen ska läsa någonstans.
+
+
+======================FÖR/NACKDELAR MED DE OAVSTÅENDE DELARNA======================
+SCRUM FÖRDELAR
+Det finns många fördelar med att använda sig av SCRUM:
+
+1. Det är underlättar med att se till att alla parter är på samma blad under projektet.
+
+2. Allt som är ska göras under projektet är väldigt strukturerat, det är enkelt att se vad som ska göras, vad som inte gjorts,
+och vem som gör vad.
+
+3. SCRUM underlättar planeringen något enormt.
+
+4. Produktägaren och kunden är delaktiga under produktionen från början till slut.
+
+5. Kommunikationen är nog det som underlättas mest, alla har en röst och kan säga till när det är något som inte funkar eller vad som måste förbättras.
+
+SCRUM NACKDELAR
+Det finns få nackdelar med SCRUM:
+1. Om det är ett väldigt stort developerteam kan det hända att inte alla får sina röster hörda.
+
+2. Bundna till PÄ
+
+3. 

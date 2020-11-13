@@ -7158,8 +7158,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 * {
   font-family: monospace;
-  font-weight: bold;
-  box-sizing: border-box; }
+  font-weight: bold; }
   * p {
     font-size: 1.2em; }
 
@@ -7180,17 +7179,11 @@ body {
   min-width: 100%;
   cursor: pointer; }
 
-.header {
-  background-color: black;
-  min-width: 100%; }
-
 .navItem {
   cursor: pointer;
   color: white;
   border: none;
   background-color: transparent;
-  background-position: 50% 50%;
-  background-size: 0% 100%;
   height: 100%;
   width: 100%;
   transition: background-color 1s, transform 1s, color 0.1s;
@@ -7249,6 +7242,8 @@ body {
     padding: 40px;
     margin-top: 20px;
     margin: auto; }
+    .projectPage .carousel-container .projectDesc {
+      font-size: 1.4em; }
 
 .nacka {
   height: 100%;
@@ -7270,9 +7265,11 @@ body {
       background-color: white;
       color: black;
       margin-bottom: 5px; }
-  .nacka .nackaImg1 {
-    object-fit: cover;
-    width: 100%; }
+  .nacka .nackaImgContainer {
+    color: white; }
+    .nacka .nackaImgContainer .nackaImg {
+      object-fit: cover;
+      width: 100%; }
 
 .kontakt {
   text-align: center;
@@ -7285,7 +7282,7 @@ body {
       color: black;
       background-color: white;
       padding: 40px;
-      min-width: 125px; }
+      min-width: 220px; }
 
 @media screen and (max-width: 480px) {
   .headLine {
@@ -7293,9 +7290,12 @@ body {
   .navBar {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: space-around;
     height: auto; }
   .navItem {
-    width: 100%; }
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 25px; }
   .carousel-container {
     width: 100%;
     height: 100%; }
@@ -7316,7 +7316,10 @@ body {
   .kontakt .links {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%; } }
+    grid-template-rows: 50% 50%;
+    justify-content: space-around; }
+  .kontakt a {
+    width: 220px; } }
 
 .hide {
   display: none; }
