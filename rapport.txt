@@ -1,135 +1,140 @@
 ======================SCRUM======================
-Scrum är ett agilt arbetssätt för programutveckling.
 
-ROLLER INOM SCRUM
+Scrum är ett agilt arbetssätt för programutveckling, vilket innebär en pågående Kommunikation
+mellan kund och utvecklare. Man fokuserar på kommunikation mellan individer.
+
+==ROLLER INOM SCRUM==
+
 1.Produktägare
-Produktägaren är kundens röst i Srum-flödet. PÄ bestämmer vad som ska prioteras i varje sprint.
-Det är också hen som bestämmer när något ska ändras i flödet.
+Produktägaren är kundens röst i Scrum-flödet. PÄ bestämmer vad som ska prioteras i varje Sprint.
+Det är också denne som bestämmer när något ska ändras i flödet.
 
 2.Scrum master
-Scrum master är "coach" av Utvecklingsteamet. Det är personen som ser till att flödet går rätt till och kommunicerar mellan
+Scrum master är "coach/manager" av Utvecklingsteamet. Det är personen som ser till att flödet går rätt till och kommunicerar mellan
 teamet och Produktägaren.
 
 3.Utvecklingsteam
-Utvecklingsteamet är teamet med människor som jobbar på produkten.
+Utvecklingsteamet är teamet som består av utvecklare som arbetar med att utveckla produkten.
 
-ARTEFAKTER I SCRUM
+==ARTEFAKTER I SCRUM==
+
 Artefakter hjälper varje part att visualisera och dokumentera hur SCRUM-flödet ser ut.
 
 1. Product Backlog
 Vad produkten ska innehålla. Funktioner, sidor osv.
 
 2. Sprint Backlog
-Vad som planeras ska göras under sprinten.
+Vad som planeras ska göras under Sprinten.
 
 3. Inkrement
-Färdiga, uppdaterade produkten efter varje sprint.
+Den färdiga, uppdaterade produkten efter varje Sprint.
 
-ARBETSFLÖDE
+==ARBETSFLÖDE==
+
 1.Sprintplanering
-Sprintplaneringen är en planering mellan alla roller, där det bestäms vad som ska göras i kommande sprint.
-Man kollar på product Backlog, Produktägaren beslutar vad som ska prioteras, och det läggs i sprint Backlog.
+Sprintplaneringen är planeringen mellan alla roller (se ROLLER INOM SCRUM), där bestäms vad som ska göras i kommande Sprint.
+Man kollar på innehållet i Product Backlog, Produktägaren beslutar vad som ska prioteras, och det läggs i Sprint Backlog.
 
 2.Sprint
-En sprint är som det låter en "spurt" där man utvecklar det som är i sprint backlogen. En sprint kan vara från 5 dagar till 1 månad. Den är alltid tidsbestämd.
+En Sprint är, som det låter, en "spurt". Här utvecklas alla delar som lagts till i Sprint Backlogen. En Sprints tidsspann kan vara mellan 5 dagar upp till 1 månad. 
+Den är alltid tidsbestämd.
 
 3. Daily Scrum
-Daily Scrum är ett dagligt möte på ca 15 min. Här diskuterar Utvecklingsteamet vad som har gjorts sen förra mötet, vad som ska göras och hinder som uppståtts.
+Daily Scrum är ett dagligt möte på ca 15 min. Här diskuterar Utvecklingsteamet vad som har gjorts sen förra mötet, vad som ska göras och hinder som uppstått under
+Sprintens gång.
 
 4. Sprint Review
-Sprint Review är en sammanfattning av senaste sprinten. Här pratar man om vad som gjorts under senaste sprinten, vad som inte gjorts, och hur dessa
-faktorer kommer att påverka följande sprint.
+Sprint Review är en sammanfattning av senaste Sprinten. Här diskuteras vad som gjorts under senaste Sprinten, vad som inte gjorts, och hur dessa
+faktorer kommer att påverka följande Sprint.
 
 5. Sprint retrospective
-Här utvärderar man senaste  sprinten utifrån arbetssätt, verktyg och sammarbetet i gruppen. Här är det lätt att upptäcka möjliga problem innan de blir för 
-stora. Men det är också ett sätt att komma med positiv kritik till teamet.
-
+Här utvärderas den senaste Sprinten utifrån arbetssätt, verktyg och sammarbetet i gruppen. Här är det lätt att upptäcka potentiella och befintilga problem 
+innan dessa uppkommer eller blir för kritiska. Men det är också ett tillfälle att framföra positiv och konstruktiv kritik inom teamet.
 
 
 ======================GRAFISK PROFIL======================
-En grafisk profil är en profil där kunden har bestämt design-attributer. Det kan vara färg, typsnitt, layout och logotyp kunden vill ha på sidan.
-
+En grafisk profil är en profil där kunden har bestämt design-attributer. Det kan t.ex. vara färg, typsnitt, layout och logotyp kunden vill ha på sidan.
 
 
 ======================TILLGÄNGLIGHET======================
-Tillgängligheter är hjälpmedel som gör det lättare för människor med eventuella funktionsnedsättningar att orientera sig på sidan.
-Det kan vara texttolkning för synskadade, tab-ordning för människor som har svårigheter att orientera med musen osv.
+Tillgängligheter är hjälpmedel som underlättar för människor med eventuella funktionsnedsättningar att orientera sig på sidan.
+Det kan t.ex. vara texttolkning för synskadade, tab-ordning för människor som har svårigheter att orientera med musen osv.
 
-Jag har valt följade tillgängligheter:
+Följande tillgängligheter har inkluderats i detta projekt:
 
 1.
 ----1.1.1 (A)	Beskriv med text allt innehåll som inte är text----
 
-Alla bilder på hemsidan har beskrivande text, ifall användaren har svårt att se.
+Alla bilder på hemsidan har beskrivande text, om användaren har svårt att se.
 
 
 2.
 ----1.4.3 (AA) Använd tillräcklig kontrast mellan text och bakgrund----
 
-I min design har jag fokuserat mycket på kontrasten. Om det är ljus bakgrund, Är texten mörk, och vice versa.
+Designen i det här projektet har stort fokus på kontrasten. Om det är ljus bakgrund, Är texten mörk, och vice versa.
 
 3.
 ----1.4.5 (AA)	Använd text, inte bilder, för att visa text----
-All text på sidan är skriven med text. Samt alla bilder har en alt-text.
+All text på sidan är skriven med text (och inte t.ex. bilder). Samt alla bilder har en alt-text.
 
 4.
 ----2.4.3 (A) Gör en logisk tab-ordning----
 
-Jag har angett alla klickbara element ett tabindex i logisk ordning.
+Alla klickbara element har ett angivet tabindex i logisk ordning.
 
 5.
-
 ----3.2.3 (AA)	Var konsekvent i navigation, struktur och utformning----
 
-Min sida har samma typsnitt, placering och storlek på texten överallt i navigationen,
-det är lätt för användaren att se var hen ska läsa någonstans.
+Sidan har samma typsnitt, placering och storlek på texten överallt i navigationen,
+det är lätt för användaren att se var denne ska läsa någonstans.
 
 
-======================FÖR/NACKDELAR MED DE OAVSTÅENDE DELARNA======================
+======================FÖR- OCH NACKDELAR MED DE OVANSTÅENDE DELARNA======================
 
 ==SCRUM==
 
 SCRUM FÖRDELAR
 
-1. Det är underlättar med att se till att alla parter är på samma blad under projektet.
+1. Det underlättar med att se till att alla parter är med på noterna under projektet.
 
 2. Allt som är ska göras under projektet är väldigt strukturerat, det är enkelt att se vad som ska göras, vad som inte gjorts,
 och vem som gör vad.
 
-3. SCRUM underlättar planeringen något enormt.
+3. SCRUM underlättar planeringen något enormt i och med det agila arbetsättet.
 
-4. Produktägaren och kunden är delaktiga under produktionen från början till slut.
+4. Produktägaren och kunden är delaktiga under produktionen från början till slut. Detta underlättar så att potentiella missförstånd inte uppstår.
 
-5. Kommunikationen är nog det som underlättas mest, alla har en röst och kan säga till när det är något som inte funkar eller vad som måste förbättras.
+5. Kommunikationen är det som gynnas mest, alla har en röst och kan säga till när det är något som inte fungerar eller vad som måste förbättras.
 
 SCRUM NACKDELAR
 
-1. Om det är ett väldigt stort developerteam kan det hända att inte alla får sina röster hörda.
+1. Om det är ett väldigt stort Utvecklingsteam kan det hända att inte alla får sina röster hörda.
 
-2. Om någon i teamet kommer på en ändring som kan vara kritiskt för att forsätta abertet, men kommer ändra flödet,
-måste de kontakta PÄ, och det kan ev. hindra teamet att forsätta ifall PÄ inte är tillgänglig.
+2. Om någon i teamet kommer på en ändring som kan vara kritiskt för att forsätta arbetet, men som kommer att ändra flödet,
+måste teamet kontakta Produktägaren. Detta kan eventuellt hindra teamet från att forsätta med utvecklingen utifall Produktägaren inte är tillgänglig.
 
-3. Det kan hända att alla i teamet inte tycker ett möte (daily scrum) varje morgon är optimalt.
+3. Det kan hända att alla i teamet inte tycker ett möte (Daily Scrum) varje morgon är optimalt. T.ex. dessa upplevs tidskrävande och fokus på 
+utvecklingen av produkten blir lidande.
 
-4. Om någon i teamet lämnar projektet mitt i en sprint, kan det ha väldigt svåra konsekvenser, eftersom
-alla gör en egen del.
+4. Om någon i teamet lämnar projektet mitt i en Sprint, kan det leda till väldigt svåra konsekvenser, eftersom
+alla gör sin egen del av Sprint Backlogen.
 
 ==GRAFISK PROFIL==
 
 GRAFISK PROFIL FÖRDELAR
 
-1. Det underlättar att komma igång med projektet, eftersom det redan finns en mall för
-designen och strukturen på projektet. Och utvecklarna kan fokusera på funtionalitet.
+1. Det underlättar att komma igång med projektet, eftersom att det redan finns en mall för
+designen och strukturen på projektet. Och utvecklarna kan fokusera på funktionalitet.
 
-2. Med en grafisk profil är det säkert att hemsidans innehåll får sammanhängade design, med samma typsnitt och färgschema.
+2. Med en grafisk profil är det säkert att hemsidans innehåll får en sammanhängade design, med samma typsnitt, layout och färgschema.
 
-3. Koden blir renare, eftersom alla element har samma egenskaper.
+3. Det blir mindre och mer clean kod, eftersom alla element har många gemensamma CSS-egenskaper.
 
 GRAFISK PROFIL NACKDELAR
 
 1. Det kan ta tid att ta fram/optimera i olika delar av sidan.
 
-2. Det kan hända att det blir svårt att anpassa sidan till vissa tillgänglighetskrav med den givna profilen, t.ex. kontraster.
+2. Det kan bli svårt att anpassa sidan till vissa tillgänglighetskrav med den givna profilen, t.ex. kontraster.
 
 3. 
 
@@ -137,16 +142,15 @@ GRAFISK PROFIL NACKDELAR
 
 TILLGÄNGLIGHET FÖRDELAR
 
-1. Med tillgängligeter kan användare med olika hinder enkelt använda applikationen.
+1. Med tillgängligeter kan användare, med olika funktionsnedsättningar, enkelt använda applikationen.
 
 2. Det kan underlätta att välja färgschema, att det blir bra kontraster.
 
-3. Eftersom fler användare kan använda sidan, medför detta mer trafik.
+3. Det leder till mer trafik, då fler användare kan nyttja sidan.
 
 TILLGÄNGLIGHET NACKDELAR
 
-1. Det kan hämma arbetet ifall det inte planeras i tid att innehålla olika tillgängligeter.
+1. Det kan hämma arbetet, om planering av vilka tillgängligeter som ska användas på sidan inte görs i tid. T.ex. att en tillgängliget läggs till
+i efterhand, kan påverka den befintilga layouten. Exempel på detta kan vara större typsnitt.
 
-2. Om det inte kodas rätt, kan tillgängligeter störa designen på sidan.
-
-3. 
+ 
