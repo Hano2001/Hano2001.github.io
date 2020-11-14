@@ -86,8 +86,10 @@ det är lätt för användaren att se var hen ska läsa någonstans.
 
 
 ======================FÖR/NACKDELAR MED DE OAVSTÅENDE DELARNA======================
+
+==SCRUM==
+
 SCRUM FÖRDELAR
-Det finns många fördelar med att använda sig av SCRUM:
 
 1. Det är underlättar med att se till att alla parter är på samma blad under projektet.
 
@@ -101,9 +103,50 @@ och vem som gör vad.
 5. Kommunikationen är nog det som underlättas mest, alla har en röst och kan säga till när det är något som inte funkar eller vad som måste förbättras.
 
 SCRUM NACKDELAR
-Det finns få nackdelar med SCRUM:
+
 1. Om det är ett väldigt stort developerteam kan det hända att inte alla får sina röster hörda.
 
-2. Bundna till PÄ
+2. Om någon i teamet kommer på en ändring som kan vara kritiskt för att forsätta abertet, men kommer ändra flödet,
+måste de kontakta PÄ, och det kan ev. hindra teamet att forsätta ifall PÄ inte är tillgänglig.
+
+3. Det kan hända att alla i teamet inte tycker ett möte (daily scrum) varje morgon är optimalt.
+
+4. Om någon i teamet lämnar projektet mitt i en sprint, kan det ha väldigt svåra konsekvenser, eftersom
+alla gör en egen del.
+
+==GRAFISK PROFIL==
+
+GRAFISK PROFIL FÖRDELAR
+
+1. Det underlättar att komma igång med projektet, eftersom det redan finns en mall för
+designen och strukturen på projektet. Och utvecklarna kan fokusera på funtionalitet.
+
+2. Med en grafisk profil är det säkert att hemsidans innehåll får sammanhängade design, med samma typsnitt och färgschema.
+
+3. Koden blir renare, eftersom alla element har samma egenskaper.
+
+GRAFISK PROFIL NACKDELAR
+
+1. Det kan ta tid att ta fram/optimera i olika delar av sidan.
+
+2. Det kan hända att det blir svårt att anpassa sidan till vissa tillgänglighetskrav med den givna profilen, t.ex. kontraster.
+
+3. 
+
+==TILLGÄNGLIGHET==
+
+TILLGÄNGLIGHET FÖRDELAR
+
+1. Med tillgängligeter kan användare med olika hinder enkelt använda applikationen.
+
+2. Det kan underlätta att välja färgschema, att det blir bra kontraster.
+
+3. Eftersom fler användare kan använda sidan, medför detta mer trafik.
+
+TILLGÄNGLIGHET NACKDELAR
+
+1. Det kan hämma arbetet ifall det inte planeras i tid att innehålla olika tillgängligeter.
+
+2. Om det inte kodas rätt, kan tillgängligeter störa designen på sidan.
 
 3. 
