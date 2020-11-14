@@ -153,4 +153,5 @@ TILLGÄNGLIGHET NACKDELAR
 1. Det kan hämma arbetet, om planering av vilka tillgängligeter som ska användas på sidan inte görs i tid. T.ex. att en tillgängliget läggs till
 i efterhand, kan påverka den befintilga layouten. Exempel på detta kan vara större typsnitt.
 
- 
+2. Att inkludera och ta hänsyn till tillgängligheter kan medföra längre tid för utvecklingen än tidigare planerat. Detta kan leda till
+förskjuten deadline 
