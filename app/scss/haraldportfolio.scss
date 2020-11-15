@@ -35,13 +35,16 @@ body {
 .navItem {
   cursor: pointer;
   color: white;
+  font-size: 1.3em;
   border: none; //Knapparna har ingen border, mer stilrent så
   background-color: transparent;
   height: 100%;
   width: 100%;
-  transition: background-color 1s, transform 1s, color 0.1s;
-  border-radius: 8px; //Runar av hörnen på knapparna
+  transition: background-color 1s, transform 1s, color 0.1s; //Egenskaperna som ändras vid transform
+  border-radius: 8px; //Rundar av hörnen på knapparna
+
   &:hover {
+    //Transformen kallas när musen hovrar vid fliken
     background-color: white;
     color: black;
     transform: skewX(180deg);
@@ -52,6 +55,7 @@ body {
 .menuBtn {
   cursor: pointer;
   color: white;
+  font-size: 1.3em;
   border: none;
   background-color: transparent;
   background-position: 50% 50%;
@@ -126,14 +130,11 @@ body {
 
   justify-items: center;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
 
   .text {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: auto;
-    height: auto;
     padding: 40px;
     background-color: black;
     color: white;
@@ -147,7 +148,6 @@ body {
   .nackaImgContainer {
     color: white;
     .nackaImg {
-      object-fit: cover;
       width: 100%;
     }
   }
@@ -162,6 +162,7 @@ body {
 
     justify-content: center;
     a {
+      font-size: 1.3em;
       margin: 10px;
       color: black;
       background-color: white;

@@ -7182,6 +7182,7 @@ body {
 .navItem {
   cursor: pointer;
   color: white;
+  font-size: 1.3em;
   border: none;
   background-color: transparent;
   height: 100%;
@@ -7196,6 +7197,7 @@ body {
 .menuBtn {
   cursor: pointer;
   color: white;
+  font-size: 1.3em;
   border: none;
   background-color: transparent;
   background-position: 50% 50%;
@@ -7250,14 +7252,11 @@ body {
   width: 100%;
   display: grid;
   justify-items: center;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%; }
+  grid-template-columns: 50% 50%; }
   .nacka .text {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: auto;
-    height: auto;
     padding: 40px;
     background-color: black;
     color: white; }
@@ -7268,7 +7267,6 @@ body {
   .nacka .nackaImgContainer {
     color: white; }
     .nacka .nackaImgContainer .nackaImg {
-      object-fit: cover;
       width: 100%; }
 
 .kontakt {
@@ -7278,6 +7276,7 @@ body {
     display: flex;
     justify-content: center; }
     .kontakt .links a {
+      font-size: 1.3em;
       margin: 10px;
       color: black;
       background-color: white;
